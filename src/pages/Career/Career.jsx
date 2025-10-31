@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import JobList from "./jobList";
+import JobList from "./JobList";
 import useJobs from "../Dashboard/ManageJob/server-actions/useJobs";
 import PrimaryLoader from "../../components/shared/Loader/PrimaryLoader";
 import "./Career.css";
