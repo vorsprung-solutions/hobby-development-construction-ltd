@@ -1,7 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import ProjectIncomeTable from "./ProjectIncomeTable";
-import ProjectExpenseTable from "./PRojectExpenseTable";
+import ProjectExpenseTable from "./ProjectExpenseTable";
 import { Tooltip } from "react-tooltip";
 const ProjectIncomeExpense = ({ projectIncome, projectExpense }) => {
   return (
