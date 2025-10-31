@@ -1,5 +1,3 @@
-"use client";
-
 import AuthProvider from "./AuthProvider/AuthProvider";
 import ThemeProvider from "./ThemeProvider/ThemeProvider";
 
