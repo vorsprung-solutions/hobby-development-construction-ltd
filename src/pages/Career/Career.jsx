@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import JobList from "./JobList";
+// import JobList from "./JobList";
 import useJobs from "../Dashboard/ManageJob/server-actions/useJobs";
 import PrimaryLoader from "../../components/shared/Loader/PrimaryLoader";
 import "./Career.css";
@@ -64,11 +64,11 @@ const Career = () => {
                 </tr>
               </thead>
               <tbody>
-                {activeJobs
+                {/* {activeJobs
                   ?.filter((job) => job?.status === "Active")
                   .map((job, i) => (
                     <JobList key={i} job={job}></JobList>
-                  ))}
+                  ))} */}
               </tbody>
             </table>
           </div>
