@@ -1,0 +1,14 @@
+.td{
+    border: 1px solid gray;
+    padding-left: 16px;
+    padding-right: 16px;
+    background: rgb(184, 243, 184);
+    /* border-radius: 8px; */
+}
+
+.th{
+    border: 1px solid gray;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* border-radius: 8px; */
+}
